@@ -3,6 +3,7 @@ using Service;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+//
 builder.Services.AddScoped<DepartmentService>();
 builder.Services.AddScoped<ManagerService>();
 builder.Services.AddScoped<EmployeeService>();
